@@ -1,58 +1,32 @@
 body{ 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    background-color: #0f0e17 
+    background-color: #0f0e17;
+    margin: 0px
    
-  }
-  header.container{
-   
-   
-    
-    
   }
   
   header .container img{
     height: 100px;
     
   }
-  
-  nav{
-    
-   
-  }
-  
-  nav ul {
-   
-   
-  }
-  
   ul{
     padding: 0;
   }
   nav li { 
   display: inline;
-  list-style-type: none;
-  margin-right: 30px;
   font-size: 20px;
-  
-
-
-  
-    
-  }
+  list-style-type: none;
+  margin: 0 15px;
+ }
   
   nav li a {
     color: #fffffe;
     text-decoration: none;
-    font-weight: 500;
-    text-transform: capitalize;
-
-    
-    
-  
+    font-weight: 800;
+    text-transform: uppercase;
 }
-  
-  section{ 
+ section{ 
     margin: 25px auto ;
     padding: 30px 30px;
     max-width: 790px;
@@ -64,10 +38,7 @@ body{
   
   h2{
     color: #ff8906;
-    
-  }
-  
-  p{
+    text-transform: uppercase;
     
   }
   
@@ -76,7 +47,6 @@ body{
     color: #fffffe;
     padding-top: 20px;
     padding-bottom: 20px;
-    clear: both;
     position: fixed;
     bottom: 0;
     width: 100%;
